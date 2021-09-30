@@ -251,7 +251,7 @@ p{
 }
 @media screen and (max-width: 960px){
 	.container{
-		width: 550px;
+		width: 70%;
 	}
 	.connection1, .connection2 {
 	    margin-left: -5%;
@@ -264,20 +264,78 @@ p{
 		display: none;
 	}
 }
-
-@media screen and (max-width: 575px){
+@media screen and (max-width: 800px)
+{
 	.container{
-		width: 90%;
+		width: 80%;
 		padding: 0 15px;
 	}
-	.message, .fon{
+	h1{
+		line-height: 1.2em;
+	}
+	.mailto, .tel{
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 590px){
+	.container{
 		width: 90%;
+		padding: 0 25px;
+	}
+	.menu{
+		display: none;
+	}
+	h1{
+		font-size: 49px;
+		margin-top: 150px;
+	    line-height: 1.5em;
+	    text-align: left;
+	}
+	.nach{
+		font-size: 24px;
+	    text-align: left;
+	}
+
+	.elipse{
+		display: none;
+	}
+	h2{
+		font-size: 40px;
+		text-align: left;
+	}
+	.tutor, .number12, .number34{
+		display: none;
+	}
+	h3{
+		font-size: 31px;
+	}
+	p{
+		font-size: 15px;
+	}
+	.mailto, .tel {
+	    font-size: 22px;
+	    margin-left: 16px;
+	}
+	.cont img {
+	    width: 22px;
+	    height: 22px;
+	    margin-top: 13px;
+	}
+	.cont{
+		margin-left: 20px;
+	}
+	.str{
+		flex-wrap: wrap;
+	}
+	.message, .fon{
+		width: 60%;
 	}
 	.send{
-		width: 92%;
+		width: 62%;
 	}
 
 	.user, .email {	
-	width: 80%;
-}
+	width: 95%;
+	}
 }
