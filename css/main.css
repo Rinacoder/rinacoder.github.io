@@ -1,0 +1,283 @@
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-size: 24px;
+	
+	background-image: url('../img/black_rectangle.png'),url('../img/background 1.png');
+	background-repeat: no-repeat;
+	background-position-x: center;
+    background-position-y: top;
+	 height: 100%;
+}
+footer {
+	padding-bottom: 100px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	
+	width: 1170px;
+	/*позиционирование по центру*/
+	margin: 0 auto; 
+}
+
+header a {
+	color: #fff;
+}
+.menu {
+	display: flex;
+	background-color: black;
+	padding: 27px 0 27px 0;
+}
+.menu li a {
+	text-decoration: none;
+}
+
+.menu li {
+	margin-right: auto;
+    margin-left: auto;
+
+}
+.shapka {
+	margin-top: 70px;
+	display: flex;
+}
+.heading{
+	width: 912px;
+	margin-left: 16px;
+}
+.img{
+	width: 144px;
+	margin-left: 45px;
+
+}
+.nach{
+	text-align: center;
+	font-size: 30px;
+	line-height: 35px;
+	margin-top: 9px;
+}
+h1{
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+}
+.elipse{
+	display: block;
+	margin-left: auto;
+    margin-right: auto; 
+    margin-top: 33px;
+}
+.el{
+	margin-top: 7px;
+}
+h2{
+	margin-top: 200px;
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+}
+h3{
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 42px;
+	margin-bottom: 16px;
+}
+p{
+	line-height: 28px;
+	margin: 0px;
+}
+
+.tutor{
+	margin-left: 119px;
+	margin-right: 67px;
+
+}
+.point{
+	display: flex;
+	align-items: center;
+	margin-top: 54px;
+}
+
+.headings{
+	margin-top: 24px;
+	margin-bottom: 13px;
+}
+.points {
+	display: flex;
+	margin-left: 70px;
+	margin-right: 135px;
+}
+.points img {
+	margin-right: 33px;
+	height: 100%
+}
+.number12{
+	margin-top: 24px;
+}
+.number34 {
+	margin-top: 38px;
+}
+
+.contacts{
+	margin-top: 61px;
+	margin-left: 43px;
+}
+.cont{
+	margin-left: 43px;
+	display: flex;
+}
+.contimg{
+	margin-top: 10px;
+}
+.mailto, .tel {
+	margin-top: 10px;
+	font-size: 36px;
+	margin-left: 26px;
+	margin-right: 18px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.feedback{
+	display: flex;
+}
+
+.str {
+	display: flex;
+}
+
+.form{
+	margin-top: 67px;
+	margin-left: 29px;
+	width: 510px;
+	height: 394px;
+	padding: 0;
+}
+.user, .email {	
+	width: 235px;
+	height: 62px;
+}
+.fon{
+	width: 500px;
+	height: 62px;
+}
+
+
+.formInput input{
+	border: none;
+	outline: none;
+	padding: 0 0 0 10px;
+	font-size: 24px;
+	color: #000;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+.message{
+	width: 500px;
+	height: 146px;
+}
+.send {
+	border: none;
+	outline: none;
+	width: 510px;
+	height: 62px;
+	background-color: #a5ff33;
+	font-size: 24px;
+	margin-bottom: 80px;
+}
+.send:hover{
+	background-color: #89d42a;
+	transform: scale(1.05);
+}
+
+
+@media screen and (max-width: 1366px){
+	.container{
+		width: 1170px;
+	}
+}
+@media screen and (max-width: 1169px){
+	.container{
+		width: 930px;
+	}
+	.elipse{
+		width: 90%;
+	}
+	.feedback{
+		display: block;
+	}
+	.connection1, .connection2{
+		margin-left: 10%;
+    	margin-right: auto;
+		
+	}
+	.cont img{
+		width: 42px;
+		height: 42px;
+	}
+	.cont{
+		margin-top: 10px;
+	}
+	.form{
+	    margin-left: auto;
+    	margin-right: auto;
+	}
+	.img{
+		margin-left: 0px;
+	}
+	h1{
+		font-size: 52px;
+	}
+	.points{
+		margin: 0px;
+	}
+	.tutor{
+		margin-left: 0px;
+		margin-right: 30px;
+	}
+}
+@media screen and (max-width: 960px){
+	.container{
+		width: 550px;
+	}
+	.connection1, .connection2 {
+	    margin-left: -5%;
+	    margin-right: auto;
+	}
+	.shapka{
+		margin-top: 30px;
+	}
+	.img{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 575px){
+	.container{
+		width: 90%;
+		padding: 0 15px;
+	}
+	.message, .fon{
+		width: 90%;
+	}
+	.send{
+		width: 92%;
+	}
+
+	.user, .email {	
+	width: 80%;
+}
+}
