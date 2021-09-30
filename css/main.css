@@ -109,30 +109,41 @@ p{
 	align-items: center;
 	margin-top: 54px;
 }
-.points{
+
+.headings{
 	margin-top: 24px;
 	margin-bottom: 13px;
-	margin-left: 142px;
 }
-.reason{
-	margin-left: 155px;
+.points {
+	display: flex;
+	margin-left: 70px;
+	margin-right: 135px;
+}
+.points img {
+	margin-right: 33px;
+	height: 100%
+}
+.number12{
+	margin-top: 24px;
+}
+.number34 {
+	margin-top: 38px;
 }
 .contacts{
 	margin-top: 61px;
-	margin-bottom: 16px;
-	margin-left: 100px;
+	margin-left: 43px;
+}
+.contimg{
+	margin-top: 10px;
+	margin-left: 21.5px;
+	display: flex;
 }
 
-.tel {
+.mailto, .tel {
+	margin-top: 10px;
 	font-size: 36px;
-	margin-left: 100px;
-	color: #fff;
-	text-decoration: none;
-}
-.mailto {
-	font-size: 36px;
-	margin-left: 100px;
-	margin-right: 20px;
+	margin-left: 26px;
+	margin-right: 18px;
 	color: #fff;
 	text-decoration: none;
 }
@@ -148,7 +159,7 @@ p{
 .form{
 	margin-top: 67px;
 	margin-left: 29px;
-	width: 500px;
+	width: 510px;
 	height: 394px;
 	padding: 0;
 }
